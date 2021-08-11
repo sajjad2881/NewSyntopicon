@@ -1,6 +1,7 @@
 # NewSyntopicon
 A better way to read books
 
+https://newsyntopicon.digital
 To download the latest version to run locally on Obsidian, [click here](https://github.com/sajjad2881/NewSyntopicon/releases/latest/download/NewSyntopicon.zip)
 
 ## Background 
