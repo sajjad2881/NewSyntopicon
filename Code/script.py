@@ -12,7 +12,7 @@ for x in range(1,50):
     bkName = ('BooksNC/Book%d.txt' % x)
     with open(bkName, 'r') as file : fileNames[x - 1]  = file.read() 
 
-
+#This creates two hashmaps after iterating through the entire code
 def map_book_new(hash_map, tokens):
     hash_map_current = {}
     if tokens is not None:
@@ -56,7 +56,7 @@ def map_book_new(hash_map, tokens):
 
 hash_map = {}
 
-
+#this is just running the previous stuff 
 for x in range(0, 49):
     hash_map = map_book_new(hash_map, fileNames[x].split())
 
@@ -145,7 +145,7 @@ for x in ReplacementWords:
 ###In MasterListFinal, replace everything, and in changes, try and see if you can add next to it, or else append it 
 ###The second word will be the one you look for, and replace with the first 
 
-
+#the big pile of code
 for x in range(1,50):
     toOpen = ('BooksNC/Book%d.txt' % x)
     toWrite = ('BooksNew/Book%d.MD' % x)
